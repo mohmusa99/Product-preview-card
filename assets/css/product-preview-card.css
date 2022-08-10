@@ -21,13 +21,7 @@ body{
     border-radius: 10px;
 }
 
-@media screen and (max-width: 700px) {
-    .container{
-        display: flex;
-        flex-direction: column;
-    }
-}
-    
+
 img{
     width: 260px ;
     height: 100%;
@@ -98,4 +92,44 @@ footer {
     justify-content: center;
 }
 
+@media screen and (max-width: 700px) {
+    body{
+        height: auto;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+    }
+
+    img{
+        width: 100%;
+        display: block;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+    }
+
+
+    .right-container{
+        width: 100%;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0;
+
+    }
+
+    .cart{
+        margin-top: 0;
+    }
+
+    .sentence{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .proname{
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+}
    
