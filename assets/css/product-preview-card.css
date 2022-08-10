@@ -1,32 +1,4 @@
-@font-face {
-    font-family: Montserrat;
-    src: url(../@font-face/Montserrat/static/Montserrat-Medium.ttf);
-    font-weight: lighter;
-    font-style: normal;
-}
-
-
-@font-face {
-    font-family: Montserrat;
-    src: url(../@font-face/Montserrat/static/Montserrat-Bold.ttf);
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: Montserrat;
-    src: url(../@font-face/Montserrat/static/Montserrat-Light.ttf);
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: Fraunces;
-    src: url(../@font-face/Fraunces/static/Fraunces/Fraunces-Bold.ttf);
-    font-weight: bold;
-    font-style: normal;
-} 
-
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:ital,wght@0,500;0,700;1,700&display=swap');
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
@@ -54,16 +26,8 @@ body{
         display: flex;
         flex-direction: column;
     }
-    .body{
-        height: 50p;
-    }
 }
-
-/* .container >div {
-    margin:10px
     
-} */
-
 img{
     width: 260px ;
     height: 100%;
@@ -78,8 +42,7 @@ img{
     align-items: center;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    /* display: flex; */
-    /* justify-content: center; */
+    
 }
 
 .proname {
@@ -109,6 +72,7 @@ p{
 .og-price{
     font-family: Montserrat;
     font-weight: normal;
+    color: hsl(228, 12%, 48%);
 }
 
 .discount-price{
@@ -133,6 +97,5 @@ footer {
     align-items: center;
     justify-content: center;
 }
-
 
    
